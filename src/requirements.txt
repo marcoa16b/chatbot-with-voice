@@ -1,0 +1,14 @@
+# To load .env
+python-dotenv
+
+# Text to ASCII Art
+pyfiglet
+
+# Play song of voice
+pygame
+
+# Google Text To Speech
+gtts
+
+# To connect with AI
+openai
