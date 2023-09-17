@@ -1,1 +1,2 @@
 from .text_to_speech import TextToSpeechModule
+from .speech_to_text import SpeechToTextModule

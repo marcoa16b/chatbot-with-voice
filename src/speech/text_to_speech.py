@@ -21,3 +21,12 @@ class TextToSpeechModule:
     os.remove(self.filename)
     pygame.quit()
 
+  def playSong(self, file):
+    pygame.init()
+    pygame.mixer.init()
+    pygame.mixer.music.load(file)
+    pygame.mixer.music.play()
+    while pygame.mixer.music.get_busy():
+      pygame.time.Clock().tick(10)
+    pygame.mixer.quit()
+    pygame.quit()

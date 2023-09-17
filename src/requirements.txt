@@ -10,5 +10,8 @@ pygame
 # Google Text To Speech
 gtts
 
+# Speech to Text
+speechrecognition
+
 # To connect with AI
 openai
